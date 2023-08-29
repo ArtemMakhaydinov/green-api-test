@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// ========== AMPQ CONNECTION ==========
+// ========== AMQP CONNECTION ==========
 
 require('./config/amqplib')
 
